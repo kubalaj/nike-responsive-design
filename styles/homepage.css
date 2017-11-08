@@ -1,0 +1,96 @@
+/*TODO Replace with Real CSS for Real Menu*/
+.menu-placeholder {
+  background-color: #f2f2f2;
+  height: 170px;
+  width: 100%;
+}
+
+.row {
+  padding: 10px 0;
+  width: 100%;
+  margin: 0;
+}
+
+.title {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.title-menu {
+    font-weight: 100;
+    font-size: 14px;;
+
+}
+.banner {
+  padding: 0;
+  height: 600px;
+}
+#banner_1 {
+  background-image:url('../img/force.jpg');
+}
+#banner_2 {
+  background-image:url('../img/force_2.jpg');
+}
+
+.new-heights {
+  padding-top: 40px;
+}
+.new-heights p {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.button-row .col {
+    padding: 4px;
+}
+
+.latest-styles {
+  padding: 0 60px;
+}
+
+.latest-styles h3 {
+  padding-bottom: 20px;
+}
+
+.latest-styles p {
+  font-size: 12px;
+  text-align: left;
+  line-height: 8px;
+}
+
+
+.latest-styles .title-p {
+  padding-top: 10px;
+}
+
+.latest-styles .content-p {
+  color: #999;
+}
+
+
+
+#life-1 {
+  padding: 0;
+  background-image:url('../img/life_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#life-2 {
+  padding: 0;
+  background-image:url('../img/life_2.jpg');
+  background-size: cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+#life-3 {
+  padding: 0;
+  background-image:url('../img/life_3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#shop-now {
+  float: right;
+}
