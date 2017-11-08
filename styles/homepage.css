@@ -67,6 +67,10 @@
   color: #999;
 }
 
+.latest-from h3 {
+  padding-left: 60px;
+}
+
 
 
 #life-1 {
@@ -90,6 +94,14 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.best-selling {
+  padding: 20px;
+}
+.best-selling h3 {
+  padding-left: 60px;
+}
+
 
 #shop-now {
   float: right;

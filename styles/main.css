@@ -57,6 +57,9 @@ button {
   border-radius: 3px;
   font-size: 12px;
 }
+button:hover {
+  cursor: pointer;
+}
 
 ul {
   text-align: center;
