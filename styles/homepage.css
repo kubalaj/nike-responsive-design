@@ -98,13 +98,8 @@ a:hover > p {
 
 }
 
-
-
-
-
-
-.latest-from h3 {
-  padding-left: 60px;
+.latest-from .col {
+  padding-left: 0;
 }
 
 #life-1 {
