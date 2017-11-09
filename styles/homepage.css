@@ -168,13 +168,19 @@ a:hover > p {
   margin-top: 50%;
   font-size: 24px;
 }
+@media screen and (max-width: 576px) {
+  .layer-smarter h2 {
+    margin-top: 10%;
+  }
+}
 .layer-smarter p {
-  font-size: 12px;
-  z-index: 1;
+  font-size: 11px;
+  line-height: 25px;
+  padding: 0 90px;
 }
 .layer-smarter .hover-layer-blue {
-  height: 700px;
-  width: 200%;
+  height: 650px;
+  width: 100%;
   z-index: 2;
   padding: 0;
 }
