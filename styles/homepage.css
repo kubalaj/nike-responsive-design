@@ -62,7 +62,9 @@
   text-align: left;
   line-height: 8px;
 }
-
+.latest-styles img {
+  width: 99%;
+}
 
 
 .title-p {
@@ -120,6 +122,9 @@
   font-size: 13px;
   margin-bottom: 5px;
 }
+.best-selling img {
+  width: 99%;
+}
 
 .layer-smarter {
   background-color: #bdc7c9;
@@ -151,6 +156,7 @@
 .layer-smarter-list img {
   width: 99%;
 }
+
 .layer-smarter-list p {
   text-align: left;
   font-size: 12px;
