@@ -16,9 +16,8 @@
   padding-bottom: 30px;
 }
 .title-menu {
-    font-weight: 100;
-    font-size: 14px;;
-
+  font-weight: 100;
+  font-size: 14px;;
 }
 .banner {
   padding: 0;
@@ -69,17 +68,31 @@
 
 .title-p {
   padding-top: 10px;
+  color: black;
 }
-
 .content-p {
   color: #999;
 }
+.title-p:hover, .content-p:hover, .title-p:hover + .content-p,  {
+  text-decoration: underline;
+}
+a:hover > p {
+  text-decoration: underline;
+}
+
+.title-p:hover + .content-p {
+  text-decoration: underline;
+
+}
+
+
+
+
+
 
 .latest-from h3 {
   padding-left: 60px;
 }
-
-
 
 #life-1 {
   padding: 0;
@@ -185,6 +198,9 @@
   padding: 0;
 }
 
+.latest-styles a:hover, .best-selling a:hover, .layer-smarter-list a:hover {
+  text-decoration: none;
+}
 
 #shop-now {
   float: right;
