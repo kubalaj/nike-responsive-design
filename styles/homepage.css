@@ -59,11 +59,11 @@
 }
 
 
-.latest-styles .title-p {
+.title-p {
   padding-top: 10px;
 }
 
-.latest-styles .content-p {
+.content-p {
   color: #999;
 }
 
@@ -95,11 +95,82 @@
   background-position: center center;
 }
 
+.latest-from {
+  border-top: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+  margin-right: 3%;
+  margin-left: 3%;
+  width: 94%;
+}
+
 .best-selling {
   padding: 20px;
 }
 .best-selling h3 {
   padding-left: 60px;
+}
+
+.best-selling p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.layer-smarter {
+  background-color: #bdc7c9;
+  padding: 0;
+  color:
+}
+#layer-smarter-img {
+  background-image:url('../img/layer_smarter.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0;
+}
+.layer-smarter h2 {
+  margin-top: 50%;
+  font-size: 24px;
+}
+.layer-smarter p {
+  font-size: 12px;
+  z-index: 1;
+}
+.layer-smarter .hover-layer-blue {
+  height: 700px;
+  width: 200%;
+  z-index: 2;
+  padding: 0;
+}
+
+.layer-smarter-list {
+
+}
+.layer-smarter-list p {
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+#smarter-1 {
+  background-image:url('../img/jacket_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0;
+}
+#smarter-2 {
+  background-image:url('../img/hoodie_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0;
+}
+#smarter-3 {
+  background-image:url('../img/pants_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0;
 }
 
 
