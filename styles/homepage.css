@@ -125,18 +125,21 @@ a:hover > p {
 }
 
 .latest-from {
-  border-top: 1px solid #f2f2f2;
-  border-top: 1px solid #f2f2f2;
-  margin-right: 3%;
-  margin-left: 3%;
+  border-top: 2px solid #f2f2f2;
+  padding-top: 30px;
+  margin: 0 3%;
   width: 94%;
 }
 
 .best-selling {
-  padding: 20px;
+  padding: 20px 0;
+  margin: 0 3%;
+  width: 94%;
+
 }
+
 .best-selling h3 {
-  padding-left: 60px;
+  padding-bottom: 100px;
 }
 
 .best-selling p {
