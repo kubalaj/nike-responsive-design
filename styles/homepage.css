@@ -130,7 +130,15 @@ a:hover > p {
   margin: 0 3%;
   width: 94%;
 }
-
+@media screen and (max-width: 768px) {
+  .latest-from {
+    margin: 0;
+    width: 100%;
+  }
+  .latest-from h3 {
+    padding-left: 20px;
+  }
+}
 .best-selling {
   padding: 20px 0;
   margin: 0 3%;
@@ -162,13 +170,21 @@ a:hover > p {
   background-position: center center;
   padding: 0;
 }
+#layer-smarter-img-small-case {
+  background-image:url('../img/layer_smarter.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0;
+}
+
 .layer-smarter h2 {
   margin-top: 50%;
   font-size: 24px;
 }
 @media screen and (max-width: 768px) {
   .layer-smarter h2 {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 }
 .layer-smarter p {
@@ -198,6 +214,10 @@ a:hover > p {
   text-align: left;
   font-size: 12px;
   margin-bottom: 5px;
+}
+
+.layer-smarter-list .col-md-3 {
+  padding-bottom: 10px;
 }
 
 #smarter-1 {
