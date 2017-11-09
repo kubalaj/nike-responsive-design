@@ -166,7 +166,7 @@ a:hover > p {
   margin-top: 50%;
   font-size: 24px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .layer-smarter h2 {
     margin-top: 10%;
   }
@@ -181,6 +181,13 @@ a:hover > p {
   width: 100%;
   z-index: 2;
   padding: 0;
+}
+
+.layer-smarter-list {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 20px;
+    border-bottom: 2px solid #f2f2f2;
 }
 
 .layer-smarter-list img {
