@@ -103,6 +103,11 @@ li a:hover {
 
   transition: background-color 0.5s ease;
 }
+.hover-layer-blue-on {
+  height: 100%;
+  background-color: rgba(var(--secondary-accent-color), 0.7);
+  z-index: 1;
+}
 .hover-layer-blue:hover {
   background-color: rgba(var(--secondary-accent-color), 0.7);
   z-index: 1;

@@ -174,22 +174,26 @@ a:hover > p {
   background-position: center center;
   padding: 0;
 }
-#layer-smarter-img-small-case {
-  background-image:url('../img/layer_smarter.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding: 0;
-}
 
 .layer-smarter h2 {
   margin-top: 50%;
   font-size: 24px;
 }
 @media screen and (max-width: 768px) {
-  .layer-smarter h2 {
-    margin-top: 5%;
+  .layer-smarter h2, .layer-smarter p
+  {
+    margin-top: 0;
+    position: relative;
+    bottom: 70%;
   }
+  .layer-smarter a p {
+    position: relative;
+    bottom: 240px;
+  }
+  #layer-smarter-img {
+    height: 350px;
+  }
+
 }
 .layer-smarter p {
   font-size: 11px;
